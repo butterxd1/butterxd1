@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Putbotz&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Butterbotz&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
 
 # Hi 👋! I'm ButterXd
 
@@ -22,4 +22,4 @@
 <br>
 <div align="left">
 <!--   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fatkhurrhn&radius=16&theme=react&area=true&order=5" height="auto" alt="by fatkhurhhn"/> -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Putbotz&theme=github-compact&radius=16" height="auto" alt="by ButterXd"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Butterbotz&theme=github-compact&radius=16" height="auto" alt="by ButterXd"/>
