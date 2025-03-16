@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Butterbotz&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Putbotz&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
 
 # Hi 👋! I'm ButterXd
 
