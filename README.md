@@ -1,2 +1,34 @@
-name: Generate snake animationon:  schedule: # execute every 12 hours    - cron: "* */12 * * *"  workflow_dispatch:  push:    branches:    - mainjobs:  generate:    permissions:      contents: write    runs-on: ubuntu-latest    timeout-minutes: 5    steps:      - name: generate snake.svg        uses: Platane/snk/svg-only@v3        with:          github_user_name: ${{ github.repository_owner }}          outputs: dist/snake.svg?palette=github-dark      - name: push snake.svg to the output branch        uses: crazy-max/ghaction-github-pages@v3.1.0        with:          target_branch: output          build_dir: dist        env:          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-Collapse file‎README.md‎Copy file name to clipboard+47-37Lines changed: 47 additions & 37 deletionsDisplay the source diffDisplay the rich diffOriginal file line numberDiff line numberDiff line change@@ -1,56 +1,66 @@<<<<<<< HEAD<div align="center">  # 👋 Hello, I'm [Dika Prasetya](https://kensanity.is-a.dev/)!Hello, I'm Dika!<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A277FF&center=true&vCenter=true&width=940&lines=Welcome+to+my+GitHub+Profile!;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" /></div>---## 🌐 Socials:[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@sixeye6666) ## 🚀 About Me# 💻 Tech Stack:![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)# 📊 GitHub Stats:![](https://github-readme-stats.vercel.app/api?username=dikaprsty916&theme=blueberry&hide_border=false&include_all_commits=false&count_private=false)<br/>![](https://nirzak-streak-stats.vercel.app/?user=dikaprsty916&theme=blueberry&hide_border=false)<br/>![](https://github-readme-stats.vercel.app/api/top-langs/?username=dikaprsty916&theme=blueberry&hide_border=false&include_all_commits=false&count_private=false&layout=compact)I am an enthusiastic person who enjoys exploring new technologies and building innovative solutions. My journey in the world of technology is driven by curiosity and a desire to create meaningful projects.## 🏆 GitHub Trophies![](https://github-profile-trophy.vercel.app/?username=dikaprsty916&theme=radical&no-frame=false&no-bg=true&margin-w=4)- 🎯 Focused on Web & AI Development- 🧠 Always learning and improving my skills- 💡 Enjoy collaborating on exciting projects- ⚡ Fun fact: unknown---### ✍️ Random Dev Quote![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)## 🛠️ Technologies & Tools### 🔝 Top Contributed Repo![](https://github-contributor-stats.vercel.app/api?username=dikaprsty916&limit=5&theme=dark&combine_all_yearly_contributions=true)### 🌐 Web Development![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)---[![](https://visitcount.itsvg.in/api?id=dikaprsty916&icon=0&color=0)](https://visitcount.itsvg.in)<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->======= ## Hello, I'm Dika!<br> 👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact### 🤖 Machine Learning![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)---#### 🌐 Socials:## 🌐 Socials:[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@sixeye6666) #### 💻 Tech Stack:![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)#### 📊 GitHub Stats:![](https://github-readme-stats.vercel.app/api?username=dikaprsty916&theme=blueberry&hide_border=false&include_all_commits=false&count_private=false)<br/>![](https://nirzak-streak-stats.vercel.app/?user=dikaprsty916&theme=blueberry&hide_border=false)<br/>![](https://github-readme-stats.vercel.app/api/top-langs/?username=dikaprsty916&theme=blueberry&hide_border=false&include_all_commits=false&count_private=false&layout=compact)#### 🏆 GitHub Trophies![](https://github-profile-trophy.vercel.app/?username=dikaprsty916&theme=radical&no-frame=false&no-bg=true&margin-w=4)<div align="center"><table align="center">    <tr>      <th><h3>📈 Github Stats</h3></th>      <th><h3>💭 Random Dev Quote</h3></h3></th>    </tr>    <tr>        <td align="center" width="50%">            <img src="https://github-readme-stats-fast.vercel.app/api?username=dikaprsty916&show_icons=true&theme=prussian" alt="Exzort567's GitHub Stats" />            <br />        </td>        <td align="center" width="50%">            <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=prussian" alt="Random Dev Quote" />        </td>    </tr></table></div>#### ✍️ Random Dev Quote![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)---#### 🔝 Top Contributed Repo![](https://github-contributor-stats.vercel.app/api?username=dikaprsty916&limit=5&theme=dark&combine_all_yearly_contributions=true)<img src="https://raw.githubusercontent.com/dikaprsty916/dikaprsty916/output/snake.svg" alt="Snake animation" />###---[![](https://visitcount.itsvg.in/api?id=dikaprsty916&icon=0&color=0)](https://visitcount.itsvg.in)>>>>>>> 7539745b799b6aef4a12b5e800b3e6fec7235a8b<div align="center">  <b></b></div>
+name: Generate snake animation
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark
+
+
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
