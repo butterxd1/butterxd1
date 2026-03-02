@@ -1,6 +1,6 @@
 <div align="center">
   
-# 👋 Hello, I'm [butterxd](https://kensanity.is-a.dev/)!
+# 👋 Hello, I'm [butterhere](https://kensanity.is-a.dev/)!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A277FF&center=true&vCenter=true&width=940&lines=Welcome+to+my+GitHub+Profile!;Always+learning+new+things;Let's+build+something+amazing!" alt="Typing SVG" />
 </div>
@@ -45,7 +45,7 @@ I am an enthusiastic person who enjoys exploring new technologies and building i
     </tr>
     <tr>
         <td align="center" width="50%">
-            <img src="https://github-readme-stats-fast.vercel.app/api?username=butterxd&show_icons=true&theme=prussian" alt="Exzort567's GitHub Stats" />
+            <img src="https://github-readme-stats-fast.vercel.app/api?username=dikaprsty916&show_icons=true&theme=prussian" alt="Exzort567's GitHub Stats" />
             <br />
         </td>
         <td align="center" width="50%">
@@ -57,7 +57,7 @@ I am an enthusiastic person who enjoys exploring new technologies and building i
 
 ---
 
-<img src="https://raw.githubusercontent.com/butterxd/butterxd/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/butterxd1/butterxd1/output/snake.svg" alt="Snake animation" />
 
 ###
 ---
